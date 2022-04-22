@@ -1,0 +1,217 @@
+/* html-elements */
+.bg{
+  text-align: center;
+  /* background-color: #476BD7; */
+  background-color: #BFFFF0;
+
+}
+
+/* .body-bg{
+  background-color: #BFFFF0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+} */
+
+.container-fluid{
+  /* padding: 3% 15%; */
+}
+
+
+/* navigation-bar */
+.navi{
+  position: fixed;
+  z-index: 10;
+  top: 25px;
+  left:0;
+  right: 0;
+  /* color: white; */
+  /* margin: 2% 30% 0; */
+  margin-left: 30%;
+  margin-right: 30%;
+  /* background-color: blue; */
+}
+
+.radius{
+  background-color: #430EBC;
+  border-radius: 20px;
+}
+
+.nav-item-margin{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+/* welcome-part */
+
+#welcome{
+
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+
+  font-family: 'Montserrat-bold700' , sans-sans-serif;
+  padding-top: 140px;
+  text-align: center;
+  color: black;
+}
+
+.welcome{
+  position: absolute;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+  top: 90px;
+  left: 0;
+  right: 0;
+  font-size: 3rem;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.turtoo{
+  /* margin: 5%; */
+  /* float: right; */
+}
+
+.heading{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.heading-main{
+  text-align: center;
+  margin: 1% 3% 2%;
+  /* padding: 3%; */
+  border-radius: 20px;
+  font-family: 'Montserrat-bold';
+  color: black;
+  background-color: #BFFFF0;
+  /* background-color: #476BD7; */
+}
+
+.heading-h1{
+  font-size: 4rem;
+  font-family: 'Hurricane', cursive;
+  font-weight: bold;
+  /* margin: 25% 0 0; */            responsive
+}
+
+.sub-heading-h3{
+  color: black;
+  margin-bottom: 50px;
+}
+
+/* intro part */
+
+#intro{
+  background-color: white;
+  /* height: 200px; */
+  text-align: center;
+  margin: 1% 3% 1%;
+  border-radius: 20px;
+  font-family: 'Montserrat-bold';
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.salutation{
+  padding: 30px 10px 10px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.2rem;
+}
+
+.profile-pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.description{
+  margin-top: 20px;
+  font-family: monospace;
+  font-style:italic;
+  font-size: 1.8rem;
+}
+
+
+
+/* skills part */
+#skills-carousel{
+  background-color: white;
+  text-align: center;
+  margin: 1% 3% 1%;
+  border-radius: 20px;
+  font-family: 'Montserrat-bold';
+}
+
+.carousel-image{
+  width: 400px;
+  height: 300px;
+}
+
+.carousel-custom-inner{
+  padding: 2% 5% 1%;
+}
+
+.custom-label-carousel{
+  /* font-family: Montserrat; */
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 20px;
+}
+.carousel-label-desc{
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  color: gray;
+}
+
+/* work-part */
+#work-carousel{
+  background-color: white;
+  text-align: center;
+  margin: 0.1% 3% 5%;
+  padding: 50px;
+  border-radius: 20px;
+  font-family: 'Montserrat-bold';
+}
+
+.image1{
+  width: 500px;
+  height: 375px;
+}
+.image2{
+  width: 200px;
+  height: 400px;
+  transform: rotateZ(-40deg);
+}
+.image3{
+  width: 500px;
+  height: 375px;
+}
+
+/* footer-part */
+
+#footer{
+  border-radius: 10px 10px 0px 0px;
+  background-color: black;
+  height: 200px;
+}
+
+
+
+
+/* media-queries */
+
+/* @media screen (min-width: 600px) {
+  #welcome {
+    background-color: black;
+  }
+} */
